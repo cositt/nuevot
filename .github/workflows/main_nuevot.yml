@@ -31,7 +31,7 @@ jobs:
         run: cp azuresite/requirements.txt .
 
       - name: Copy azuresite settings file to artifact staging directory
-        run: cp azuresite/azuresite.py dtest/azuresite.py
+        run: cp azuresite/azuresite.py nuevot/azuresite.py
 
       - name: Copy startup script to artifact staging directory
         run: cp azuresite/startup.sh .
